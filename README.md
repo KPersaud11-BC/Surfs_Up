@@ -29,7 +29,7 @@ There are several key differences in weather data between June and December are 
 
 ## Summary
 ### Additional Queries
-One additional query that can be done is gather more data for December. As mentioned, June has 200 more data points than December. The current data ends in August 2017, so it excludes December 2017. This may level out any average or standard deviation discrepancies that showed up in my key differences.
+One additional query that can be done is gather more data for December. As mentioned, June has 200 more data points than December. The current data ends in August 2017, so it excludes December 2017. This may level out any average or standard deviation discrepancies that showed up in my key differences. Data can be retrieved via an API call using OpenWeatherMap's Historical Weather Data API. and searching for Oahu.
 
 Another additional query that can be done is analyzing precipitation. I wrote a query in a similar manner to the challenge deliverables that described precipitation data for June and December. The resulting table is shown below.
 <table>
@@ -47,3 +47,10 @@ I also read the Measurement data from SQL to a DataFrame and exported it to Exce
 ![Table](https://user-images.githubusercontent.com/84286467/129493606-5585ed23-a22b-4e46-8258-182bd3a7546b.PNG)
 
 From these two results, one can determine that December experiences a higher average precipitation than June, and that it experiences more days of precipitation as a percentage of its total data.
+
+### High Level Summary
+The results can be summarized as follows:
+- December has fewer data points than June because the data ends in August 2017. Additional data should be collected as prescribed in the additional queries.
+- The average temperature in June is 4 degrees higher than the average temperature in December. The standard deviation of December is higher than that of June, implying greater variance in temperature data.
+- Precipitation can also be used as a query. There is higher average precipitation in December than in June, and the percentage of precipitation days is higher in December.
+- The 4 degree lower average temperature, the higher standard deviation, and the higher precipitation totals in December can be causes for concern for investor W. Avy. Based on his previous investment history, he may be averse to supporting this venture, as the data shows the temps are lower and the rain is higher in December. It may affect the viability of selling ice cream year-round.
