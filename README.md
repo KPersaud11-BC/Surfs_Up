@@ -27,6 +27,7 @@ There are several key differences in weather data between June and December are 
 - The standard deviation of December Temperatures is higher than that of June. This implies that there is greater variance and range in December temperature data.
 - Both June and December data have a similar max temperature.
 
+## Summary
 ### Additional Queries
 One additional query that can be done is gather more data for December. As mentioned, June has 200 more data points than December. The current data ends in August 2017, so it excludes December 2017. This may level out any average or standard deviation discrepancies that showed up in my key differences.
 
