@@ -1,7 +1,7 @@
 # Surfs_Up Analysis by Kieran Persaud
 
-## Overview of the Movies-ETL Challenge
-
+## Overview of the Surf's Up Challenge
+In the Challenge scenario, I am looking to open a Surf and Shake Shop that would serve ice cream year-round in Hawaii. After meeting with W. Avy, an investor who wants to back my venture, he shares concerns about the effects of the weather on the viability of the business. In the Challenge, he asks me to run weather analytics on data from Oahu for June and December, in order to determine if the surf and ice cream shop business is sustainable year-round.
 
 ## Resources
 **Data Sources:** ```hawaii.sqlite```
